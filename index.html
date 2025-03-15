@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú ZAM</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .menu-container {
+            position: relative;
+            width: 600px;
+            height: 600px;
+            border-radius: 50%;
+            background: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+        }
+        .menu-item {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 12px;
+            font-weight: bold;
+            color: white;
+            cursor: pointer;
+        }
+        .menu-item a {
+            color: white;
+            text-decoration: none;
+        }
+        /* Posicionamiento de los módulos */
+        .item1 { top: 20px; left: 250px; background: #ff6b6b; }
+        .item2 { top: 100px; left: 450px; background: #4ecdc4; }
+        .item3 { top: 250px; left: 520px; background: #ffcc00; }
+        .item4 { bottom: 100px; left: 450px; background: #3498db; }
+        .item5 { bottom: 20px; left: 250px; background: #9b59b6; }
+        .item6 { bottom: 100px; left: 50px; background: #2ecc71; }
+        .item7 { top: 250px; left: -20px; background: #e67e22; }
+        .item8 { top: 100px; left: 50px; background: #34495e; }
+    </style>
+</head>
+<body>
+    <div class="menu-container">
+        <div class="menu-item item1"><a href="https://tsi.zam-online.mx/ACTIVOS_FIJOS/Login.aspx" target="_blank">Activos Fijos</a></div>
+        <div class="menu-item item2"><a href="https://tsi.zam-online.mx/bancosnet/#/" target="_blank">Bancos</a></div>
+        <div class="menu-item item3"><a href="https://tsi.zam-online.mx/CAJANET/Login.html" target="_blank">Caja Chica</a></div>
+        <div class="menu-item item4"><a href="https://tsi.zam-online.mx/CXPNET" target="_blank">Cuentas por Pagar</a></div>
+        <div class="menu-item item5"><a href="https://tsi.zam-online.mx/facturacion_cobranza/#/login" target="_blank">Facturación</a></div>
+        <div class="menu-item item6"><a href="https://tsi.zam-online.mx/ComprasNet/Login.aspx" target="_blank">Compras</a></div>
+        <div class="menu-item item7"><a href="https://tsi.zam-online.mx/MantenimientoNet/Login.aspx" target="_blank">Mantenimiento</a></div>
+        <div class="menu-item item8"><a href="https://tsi.zam-online.mx/OPERACIONES/Login.aspx" target="_blank">Operaciones</a></div>
+    </div>
+</body>
+</html>
